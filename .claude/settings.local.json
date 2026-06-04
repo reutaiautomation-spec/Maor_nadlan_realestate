@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($lines = Get-Content \"c:\\\\Users\\\\Or Dazan\\\\Desktop\\\\Maor_nadlan_realestate\\\\galit-maor-landing-updated-hankin-correct.html\"; @\\(624,643,662,764,790\\) | ForEach-Object { \"Line $_`: \" + $lines[$_-1] })"
+    ]
+  }
+}
